@@ -1,2 +1,0 @@
-# Uthreads - User-Level Threads Library
-Uthreads is an implementation of a basic user-level threads library for Linux that mimics the API of pthreads, part of the Operating System course at HUJI. It uses the round-robin scheduling algorithm to schedule threads. Each thread gets a quantum to run. If a thread does not terminate during its quantum, it is placed at the back of the queue.
